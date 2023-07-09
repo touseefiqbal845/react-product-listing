@@ -135,6 +135,11 @@ background-color: #FFF1E6;
     padding: 0px;
     margin-top: 894px;
 }
+   .justify-content-center.row {
+    margin-top: -1300px;
+    position: absolute;
+    margin: px 3px;
+    max-width: 278px;
    .justify-content-center align-items-center{
           margin-left: 114px;
     gap: 0px;
