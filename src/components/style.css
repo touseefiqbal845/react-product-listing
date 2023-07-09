@@ -130,12 +130,7 @@ background-color: #FFF1E6;
 }
 
 @media (max-width: 500px) {
-  .d-flex {
-    margin-left: 47px;
-    padding: 0px;
-    margin-top: 894px;
-}
-   .justify-content-center {
+d-flex justify-content-center align-items-center {
     justify-content: center!important;
     margin-left: -18px;
     gap: 0px;
