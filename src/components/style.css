@@ -131,16 +131,27 @@ background-color: #FFF1E6;
 
 @media (max-width: 500px) {
   .d-flex {
-    padding: 10px;
-    margin-left: 0;
-  }
+    margin-left: 47px;
+    padding: 0px;
+    margin-top: 894px;
+}
 
   .btn-sm {
     margin-left: 0;
     margin-top: 10px;
     margin-bottom: 10px;
   }
-
+   .d-flex.justify-content-center.align-items-center.container {
+    margin-left: 114px;
+    gap: 0px;
+    padding: 0px;
+    margin-top: 111px;
+}
+.container {
+    background-color: #fff1e6;
+    margin: 878px 62px;
+    max-width: 243px;
+}
   .productImage {
     margin: 10px;
   }
