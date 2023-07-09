@@ -135,12 +135,13 @@ background-color: #FFF1E6;
     padding: 0px;
     margin-top: 894px;
 }
-   .d-flex justify-content-center align-items-center{
-          margin-left: 114px;
+   .justify-content-center {
+    justify-content: center!important;
+    margin-left: -18px;
     gap: 0px;
     padding: 0px;
-    margin-top: 111px;
-   }
+    margin-top: -1500px;
+}
 
   .btn-sm {
     margin-left: 0;
