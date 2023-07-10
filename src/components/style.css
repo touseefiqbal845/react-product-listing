@@ -12,13 +12,13 @@
     --container-width-md:86%;
     --container-width-lg:90%;
 }
-.html{
+html{
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
     display: none;
 }
-.body{
+body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     /* color: var(--color-white); */
