@@ -40,8 +40,10 @@ function Navbartop() {
   return (
     <>
       <Navbar bg="dark" variant="dark" className="navbar">
-       
-          <Navbar.Brand>Touseef</Navbar.Brand>
+       <Link to="/">
+             <Navbar.Brand>Touseef</Navbar.Brand>
+            </Link>
+          
           <Nav className="me-auto">
             
             <Link to="/">
