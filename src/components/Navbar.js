@@ -49,9 +49,7 @@ function Navbartop() {
             <Link to="/">
               <Button variant="info" className="home">Products</Button>
             </Link>
-     <Link to="/">
-              <Button variant="info" className="home">Products</Button>
-            </Link>
+    
 
             <Link to="/add">
               <Button variant="info"  className="addcart">Add To Cart ({cartItems.length})</Button>
