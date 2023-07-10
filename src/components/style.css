@@ -12,13 +12,13 @@
     --container-width-md:86%;
     --container-width-lg:90%;
 }
-html{
+.html{
     scroll-behavior: smooth;
 }
 ::-webkit-scrollbar{
     display: none;
 }
-body{
+.body{
     font-family: 'Poppins', sans-serif;
     background: var(--color-bg);
     /* color: var(--color-white); */
@@ -180,7 +180,7 @@ background-color: #FFF1E6;
 
  
 .container {
-    background-color: #FFF;
+    
     /* margin: 878px 62px; */
     /* max-width: 420px; */
 }
@@ -227,7 +227,7 @@ background-color: #FFF1E6;
 
  
 .container {
-    background-color: #fff1e6;
+    
     /* margin: 878px 62px; */
     /* max-width: 420px; */
 }
