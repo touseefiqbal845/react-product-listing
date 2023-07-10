@@ -25,7 +25,9 @@ body{
     line-height: 1.2;
     background-image: url(./bg-texture.png);
 }
-
+.text-center-product{
+ margin-top: 30px;
+}
 .d-flex {
    
     padding: 260px;
