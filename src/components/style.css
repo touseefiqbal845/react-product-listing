@@ -20,11 +20,11 @@ html{
 }
 body{
     font-family: 'Poppins', sans-serif;
-    background: var(--color-bg);
-    /* color: var(--color-white); */
-    line-height: 1.2;
+    background: var(--color-bg); 
+    /* color: var(--color-white);  */
+     line-height: 1.2;
     background-image: url(./bg-texture.png);
-}
+} 
 .text-center-product{
  margin-top: 30px;
 }
@@ -182,7 +182,7 @@ background-color: #FFF1E6;
 
  
 .container {
-    
+    background-color: #FFF;
     /* margin: 878px 62px; */
     /* max-width: 420px; */
 }
@@ -229,7 +229,7 @@ background-color: #FFF1E6;
 
  
 .container {
-    
+    background-color: #fff1e6;
     /* margin: 878px 62px; */
     /* max-width: 420px; */
 }
