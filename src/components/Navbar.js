@@ -41,17 +41,17 @@ function Navbartop() {
     <>
       <Navbar bg="dark" variant="dark" className="navbar">
        <Link to="/">
-             <Navbar.Brand>Touseef</Navbar.Brand>
+             <Navbar.Brand>Touseef Store</Navbar.Brand>
             </Link>
           
           <Nav className="me-auto">
             
             <Link to="/">
-              <Button variant="light" className="home">Products</Button>
+              <Button variant="info" className="home">Products</Button>
             </Link>
 
             <Link to="/add">
-              <Button variant="light"  className="addcart">Add To Cart ({cartItems.length})</Button>
+              <Button variant="info"  className="addcart">Add To Cart ({cartItems.length})</Button>
             </Link>
           </Nav>
      
