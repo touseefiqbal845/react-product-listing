@@ -41,11 +41,11 @@ function Navbartop() {
     <>
       <Navbar bg="dark" variant="dark" className="navbar">
        
-          <Navbar.Brand>BRIGHTERS</Navbar.Brand>
+          <Navbar.Brand>Touseef</Navbar.Brand>
           <Nav className="me-auto">
             
             <Link to="/">
-              <Button variant="light" className="home">Product Listing</Button>
+              <Button variant="light" className="home">Products</Button>
             </Link>
 
             <Link to="/add">
