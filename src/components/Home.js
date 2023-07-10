@@ -48,7 +48,7 @@ const Myshop = () => {
   };
 
   const renderItems = sortedItems.map((item) => (
-    <Col key={item.id} lg={3} className="text-center product">
+    <Col key={item.id} lg={3} className="text-center text-center-product">
       <div className="product-inner">
      
           <img src={item.image} alt={`Image ${item.id}`} className="img-fluid" />
