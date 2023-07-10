@@ -50,7 +50,7 @@ const Myshop = () => {
   const renderItems = sortedItems.map((item) => (
     <Col key={item.id} lg={3} className="text-center product">
       <div className="product-inner">
-        <div onClick={() => handleAddToCart(item)} >
+       
           <img src={item.image} alt={`Image ${item.id}`} className="img-fluid" />
         </div>
         <h4>{item.name}</h4>
