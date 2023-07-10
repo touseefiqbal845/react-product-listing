@@ -48,18 +48,17 @@ const Myshop = () => {
   };
 
   const renderItems = sortedItems.map((item) => (
-   <Col key={item.id} lg={3} className="text-center product">
-  <div className="product-inner">
-    <img src={item.image} alt={`Image ${item.id}`} className="img-fluid" />
-  </div>
-  <h4>{item.name}</h4>
-  <p>Category: {item.category}</p>
-  <p>Price: {item.price}</p>
-  <p>Description: {item.description}</p>
-  <Button variant="primary" onClick={() => handleAddToCart(item)}>Add to cart</Button>
-</Col>
-
-
+    <Col key={item.id} lg={3} className="text-center product">
+      <div className="product-inner">
+        <div onClick={() => handleAddToCart(item)}>
+          <img src={item.image} alt={`Image ${item.id}`} className="img-fluid" />
+        </div>
+        <h4>{item.name}</h4>
+        <p>Category: {item.category}</p>
+        <p>Price: {item.price}</p>
+        <p>Description: {item.description}</p>
+      </div>
+    </Col>
   ));
 
   return (
@@ -134,3 +133,4 @@ const Myshop = () => {
 };
 
 export default Myshop;
+
